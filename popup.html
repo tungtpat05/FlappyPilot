@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FlappyBird Autopilot</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="card">
+    <div class="header">
+      <div class="logo">
+        <span class="icon">🐦</span>
+        <span class="title">Flappy Autopilot</span>
+      </div>
+      <span class="badge">v1.0</span>
+    </div>
+
+    <div class="status-box">
+      <div class="status-indicator">
+        <div class="dot active"></div>
+        <span>Mechanism: Main World Hook</span>
+      </div>
+      <p class="desc">Reads live physics state directly from the JavaScript heap and dispatches synthetic input events to clear pipe gaps with precision.</p>
+    </div>
+
+    <div class="features">
+      <div class="item">
+        <span class="key">Hotkey:</span>
+        <span class="val">[ A ] Toggle Autopilot</span>
+      </div>
+      <div class="item">
+        <span class="key">Target:</span>
+        <span class="val">flappybird.io</span>
+      </div>
+      <div class="item">
+        <span class="key">Auto-Restart:</span>
+        <span class="val">Supported on Game Over</span>
+      </div>
+    </div>
+
+    <div class="actions">
+      <a href="https://flappybird.io/" target="_blank" class="btn-play">Launch FlappyBird.io</a>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
