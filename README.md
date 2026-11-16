@@ -6,7 +6,8 @@
 
 **FlappyPilot** is a lightweight, zero-latency browser extension for [flappybird.io](https://flappybird.io/). It hooks directly into the client-side game engine in the main page context, reading real-time flight telemetry and calculating obstacle avoidance vectors to pilot the bird through pipe gaps.
 
-![alt text](image.png)
+<img width="1911" height="908" alt="image" src="https://github.com/user-attachments/assets/7410110b-f746-4a49-91ad-d2d002fd6d5f" />
+
 
 ---
 
